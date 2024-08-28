@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodes</title>
+
+    <style>
+      h1 {
+        color: red;
+        text-align: center;
+        font-size: 48px;
+        font-weight: thin;
+        text-decoration: underline;
+        background-color: yellow;
+        padding: 20px; /* padding is to add space inside an element ( like it will add extra space around the said text/element)*/
+        margin: 20px; /* margin is to add space outside the text/element (if you use color for the background of that said element you can really see the effects)*/
+      }
+
+      h1:hover {
+        background-color: aqua;
+        color: blue;
+      }
+      ul {
+        text-transform: uppercase;
+        text-align: center;
+        font-style: italic;
+        background: green;
+      }
+
+      img {
+        width: 200px;
+        display: block; /*to center an image */
+        margin: 50px auto 0 auto; /*to center an image */
+        padding: 20px;
+        background: blueviolet;
+        border: 10px solid;
+        border-radius: 30px 200px 40px 100px; /*doesn't have to be pixel you can make it percentage, that will make it completely rounded */
+        /* you can add multiple dimensions just like in padding and margin*/
+        box-shadow: 10px 5px 5px red;
+      }
+
+      button {
+        color: white;
+        background-color: aqua;
+        padding: 15px 20px;
+        display: block;
+        margin: 0 auto;
+        border: 2px solid black;
+        border-radius: 75px;
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        background-color: white;
+        color: aqua;
+        cursor: pointer; /* a cute hand pointer appears*/
+      }
+      /*ul{
+         list-style-type: none;
+         is to remove the bullet stuff on lists
+         list-style-type: square;
+         makes the bullet points square in shape
+        }  */
+
+
+      .free {
+        color: black;
+      }
+      .Premium {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>SheCodes</h1>
+    <button>apply Now</button>
+    <ul>
+      <li class="Premium">
+        <strong> Coders </strong>
+      </li>
+      <li class="free">
+        <strong> Courses </strong>
+      </li>
+      <li class="free story">
+        <strong> Stories </strong>
+      </li>
+    </ul>
+    <hr />
+    <h2>More Info</h2>
+    <img
+      src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      width="200"
+      alt="woman coding"
+    />
+  </body>
+</html>

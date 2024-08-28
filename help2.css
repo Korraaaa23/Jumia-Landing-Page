@@ -1,0 +1,143 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #333; /* Updated background color */
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 150px; /* Adjusted logo size */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-bar {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px; /* Reduced border radius */
+    width: 300px; /* Increased input width */
+}
+
+.search-bar button {
+    background: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px; /* Added margin for button */
+}
+
+.hero {
+    background: url('hero-background.jpg') center/cover no-repeat; /* Updated background with image */
+    padding: 100px 0; /* Increased padding */
+    text-align: center;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+    color: #fff; /* Added text color */
+}
+
+.hero p {
+    color: #fff; /* Added text color */
+}
+
+.featured-products {
+    padding: 50px 0;
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin-top: 10px;
+}
+
+.product p {
+    color: #777;
+}
+
+.product button {
+    background: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.newsletter h2 {
+    margin-bottom: 20px;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    background: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Products</title>
+    <link rel="stylesheet" href="fashion.css">
+</head>
+<body>
+    <header>
+        <a href="jumia2.html" target="_blank"> <!-- Target "_blank" opens the link in a new tab -->
+            <img src="jumialogo.png" alt="Jumia Logo">
+        </a>
+        <button id="cart-toggle-btn">My Cart <span id="cart-count">0</span></button>
+    </header>
+
+    <section class="products">
+        <div class="container">
+            <h2>Fashion Products</h2>
+            <div class="row">
+                <div class="column">
+                    <div class="product">
+                        <img src="tops.jpg" alt="Cute Crop-Top">
+                        <h3>Cute Crop-Top</h3>
+                        <p>$39.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="jeans.jpg" alt="Baggy Jeans">
+                        <h3>Baggy Jeans</h3>
+                        <p>$49.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="sneakers.png" alt="sneakers">
+                        <h3>sneakers</h3>
+                        <p>$39.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="watches2.jpeg" alt="Watches">
+                        <h3>Watches</h3>
+                        <p>$49.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="product">
+                        <img src="necklace.jpeg" alt="Necklace">
+                        <h3>Necklace</h3>
+                        <p>$29.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="luggage.webp" alt="Luggage">
+                        <h3>Luggage</h3>
+                        <p>$39.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="handbag.jpg" alt="handbag">
+                        <h3>handbag</h3>
+                        <p>$49.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="beachwear.jpg" alt="Beach wear">
+                        <h3>Beach wear</h3>
+                        <p>$49.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    
+                    <!-- Add more products here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-nav">
+            <ul>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+                <li><a href="/faq">FAQs</a></li>
+                <li><a href="/terms">Terms and Conditions</a></li>
+                <li><a href="/privacy">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="payment-options">
+            <h3>Accepted Payment Methods</h3>
+            <img src="visa.png" alt="Visa">
+            <img src="mastercard.png" alt="Mastercard">
+            <img src="paypal.png" alt="PayPal">
+        </div>
+        <div class="trust-badges">
+            <h3>Trust Badges</h3>
+            <img src="secure-payment.png" alt="Secure Payment">
+            <img src="ssl.png" alt="SSL Certified">
+        </div>
+        <div class="contact-info">
+            <h3>Contact Us</h3>
+            <p>123 Main Street, City, Country</p>
+            <p>Email: info@example.com</p>
+            <p>Phone: +1 234 567 890</p>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Shopping Cart</h2>
+            <div id="cart-items">
+                <!-- Cart items will be displayed here -->
+            </div>
+            <p><span class="total">Total: $<span id="cart-total">0</span></span></p>
+
+        </div>
+    </div>
+
+    <script src="fashion.js"></script>
+</body>
+</html>
